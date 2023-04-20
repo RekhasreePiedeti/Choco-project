@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChocoWorld</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body onscroll="nav()">
+    <header>
+        <section>
+            <nav class="navbar navbar-expand-md  py-0 fixed-top" id="mainNavbar">
+                
+                  <a href="#" class="navbar-brand"><h1>CANDY </h1></a>
+                  <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navLinks">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  
+                  <div class="collapse navbar-collapse" id="navLinks">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a href="" class="nav-link">HOME</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="" class="nav-link">ABOUT</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="" class="nav-link">TICKETS</a>
+                      </li>
+                    </ul>
+                  </div>
+                  
+               
+              </nav>
+        </section>
+    </header>
+    
+    <section class="container-fluid">
+      <div class="row align-items-center px-0 py-5 ">
+        <div class="col-lg-6  ">
+          <div class="text-center text-white d-none d-lg-block mt-5 "id="headingspn" >
+            <h2 class="">😇<span>/</span>CHOCOLATE<span>/</span> 🍫</h2>
+            <h2 class="">😇<span>/</span>CHOCOLATE<span>/</span> 🍫</h2>
+            <h2 class="">😇<span>/</span>CHOCOLATE<span>/</span> 🍫</h2>
+            <h2 class="">😇<span>/</span>CHOCOLATE<span>/</span> 🍫</h2>
+            <h2 class="">😇<span>/</span>CHOCOLATE<span>/</span> 🍫</h2>
+            <h2 class="">😇<span>/</span>CHOCOLATE<span>/</span> 🍫</h2>
+          </div>
+        </div>
+        <div class="col-lg-6 text-md-center">
+          <img class="img-fluid" src="i1.jpeg" alt="" height="100px" width="400px" border-radius="10px">
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid">
+      <div class="row align-items-center content">
+          <div class="col-md-6 order-2 order-md-1 ">
+              <img src="i4.jpg" alt="" class="img-fluid" height="500px" width="500px">
+          </div>
+          <div class="col-md-6 text-center order-1 order-md-2">
+              <div class="row justify-content-center">
+                  <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                      <h2>Choco World</h2>
+                      <img src="ic1.png" alt="" class="d-none d-lg-inline img-">
+                      
+                      <p class="lead">If you love chocolates as a treat or a candy,
+                         it is best have some dark chocolates. That is because it is the
+                          healthiest type of chocolate as a treat. It has a high content 
+                          of cocoa butter and it has less or no milk at all. It also contain
+                           a lot of antioxidants, like polyphenols. It is basically the healthiest
+                            option for a chocolate since it has really low sugar content that is
+                             why it has a bitter taste. It is also known to be one of the world's “superfood” </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row align-items-center content">
+          <div class="col-md-6 text-center">
+              <div class="row justify-content-center">
+                  <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                      <h2>Choco Land</h2>
+                      <img src="ic1.png" alt="" class="d-none d-lg-inline img-icon">
+                      <p class="lead">Almost everyone in this world love chocolates.
+                        However, most people think of chocolates as unhealthy treats that could
+                         ruin their teeth, can make them obese, and of course, can cause diabetes.
+                        So chocolates are often considered to be a person’s guilty pleasure Some of
+                         these people obviously does not know that chocolates can be pretty healthy
+                          as well, but just like any other food, it must be taken in moderation.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6">
+              <img src="i3.jpeg" alt="" class="img-fluid" height="400px" width="400px">
+          </div>
+      </div>
+      
+  </section>
+  <script>
+
+    function nav() {
+      if(window.scrollY >= 40){
+        document.getElementById('mainNavbar').classList.add("scrolled");
+        document.getElementById('mainNavbar').classList.remove("noneScrolled");
+      }
+      else{
+        document.getElementById('mainNavbar').classList.remove("scrolled");
+        document.getElementById('mainNavbar').classList.add("noneScrolled");
+      }
+    }
+
+</script>
+
+
+</body>
+</html>
